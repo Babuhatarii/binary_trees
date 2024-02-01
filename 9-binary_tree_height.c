@@ -8,6 +8,8 @@
 
 size_t binary_tree_height(const binary_tree_t *tree)
 {
+	size_t left_height, right_height;
+
 	if (tree == NULL)
 		return (0);
 	/* Recursive calls to find the height of the left and right subtrees */
